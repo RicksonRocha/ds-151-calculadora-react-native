@@ -8,7 +8,7 @@ export default function App() {
   const [result, setResult] = React.useState(0)
 
   React.useEffect(() => {
-    setResult(value1 + value2)
+    setResult((value1 + value2) / 2)
   }, [value1, value2])
   
   return (
