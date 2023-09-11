@@ -20,7 +20,13 @@ export default function HomePage({ navigation }) {
       onPress={() =>
         navigation.navigate('Users')
       }
-    />
+      />
+      <Button
+      title="Usuários"
+      onPress={() =>
+        navigation.navigate('Userapi')
+      }
+      />
       <StatusBar style="auto" />
     </View>
   );

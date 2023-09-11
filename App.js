@@ -4,6 +4,7 @@ import React from 'react';
 import Calculator from './app/pages/calculator';
 import HomePage from './app/pages/home';
 import UserList from './app/pages/user-list';
+import Users from './app/pages/users';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +21,7 @@ export default function App() {
           component={Calculator}
         />
         <Stack.Screen name="Users" component={UserList} />
+        <Stack.Screen name="Userapi" component={Users} />
         </Stack.Navigator>
     </NavigationContainer>
   );
